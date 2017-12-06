@@ -779,8 +779,6 @@ Text Label 9250 3850 0    60   ~ 0
 OE__1
 Wire Wire Line
 	1750 7900 2250 7900
-Text Label 1950 7900 0    60   ~ 0
-OE__1
 Text Label 4150 8050 0    60   ~ 0
 B__1
 $Comp
@@ -3066,4 +3064,8 @@ Wire Wire Line
 	13950 9050 13950 9100
 Wire Wire Line
 	13700 9050 13700 9100
+Wire Wire Line
+	1750 7700 2250 7700
+Text Label 1950 7700 0    60   ~ 0
+OE__1
 $EndSCHEMATC
