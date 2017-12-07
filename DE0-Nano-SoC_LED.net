@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/en/Documents/kicad_projects/DE0-Nano-SoC_LED/DE0-Nano-SoC_LED.sch)
-    (date "Ср 06 дек 2017 22:32:15")
+    (date "Чт 07 дек 2017 18:59:28")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -651,12 +651,12 @@
         (pin (num 7) (name R2.2) (type passive))
         (pin (num 8) (name R1.2) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical 74xx)
-      (uri /usr/share/kicad/library/74xx.lib)))
+      (uri /usr/share/kicad/library/74xx.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(RN15-Pad6)")
       (node (ref U7) (pin 4))
