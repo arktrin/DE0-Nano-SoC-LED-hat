@@ -2,8 +2,8 @@
 
   (general
     (links 350)
-    (no_connects 4)
-    (area 66.414999 16.754999 163.235001 195.055001)
+    (no_connects 1)
+    (area 9.994999 14.94 174.71 196.940001)
     (thickness 1.6)
     (drawings 39)
     (tracks 1399)
@@ -3852,7 +3852,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A5F7091)
-    (at 69.74 132.23)
+    (at 70 132.23)
     (descr "Mounting Hole 3.2mm, M3, ISO7380")
     (tags "mounting hole 3.2mm m3 iso7380")
     (path /5A5FEC51)
@@ -3915,7 +3915,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A5F70A0)
-    (at 70 189.85)
+    (at 70 190.77)
     (descr "Mounting Hole 3.2mm, M3, ISO7380")
     (tags "mounting hole 3.2mm m3 iso7380")
     (path /5A5FF59F)
