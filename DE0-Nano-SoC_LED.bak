@@ -3627,45 +3627,45 @@ Wire Wire Line
 Wire Wire Line
 	12400 10150 13150 10150
 Text Label 11500 9950 0    60   ~ 0
-A_3_1
+A_8_2
 Text Label 11500 10050 0    60   ~ 0
-C_3_1
+C_8_2
 Text Label 12750 9950 0    60   ~ 0
-B_3_1
+B_8_2
 Text Label 12750 10050 0    60   ~ 0
-D_3_1
+D_8_2
 Text Label 11500 10150 0    60   ~ 0
-CLK_3_1
+CLK_8_2
 Text Label 12750 10150 0    60   ~ 0
-LAT_3_1
+LAT_8_2
 Text Label 11500 10250 0    60   ~ 0
-OE_3_1
+OE_8_2
 Wire Wire Line
 	12800 11150 13350 11150
 Wire Wire Line
 	12800 11050 13350 11050
 Text Label 12900 11650 0    60   ~ 0
-A_3_1
+A_8_2
 Text Label 12900 11550 0    60   ~ 0
-B_3_1
+B_8_2
 Text Label 12900 11450 0    60   ~ 0
-C_3_1
+C_8_2
 Text Label 12900 11350 0    60   ~ 0
-D_3_1
+D_8_2
 Text Label 12900 11250 0    60   ~ 0
-CLK_3_1
+CLK_8_2
 Text Label 12900 11150 0    60   ~ 0
-LAT_3_1
+LAT_8_2
 Text Label 12900 11050 0    60   ~ 0
-OE_3_1
+OE_8_2
 Text Label 10000 11650 0    60   ~ 0
-A__1
+A__2
 Text Label 10000 11550 0    60   ~ 0
-B__1
+B__2
 Text Label 10000 11450 0    60   ~ 0
-C__1
+C__2
 Text Label 10000 11350 0    60   ~ 0
-D__1
+D__2
 Text Label 10000 11250 0    60   ~ 0
 CLK__2
 Text Label 10000 11150 0    60   ~ 0
@@ -3751,19 +3751,19 @@ Wire Wire Line
 Wire Wire Line
 	8900 11650 9500 11650
 Text Label 9050 11050 0    60   ~ 0
-OE_2_1
+OE_9_2
 Text Label 9050 11150 0    60   ~ 0
-LAT_2_1
+LAT_9_2
 Text Label 9050 11250 0    60   ~ 0
-CLK_2_1
+CLK_9_2
 Text Label 9050 11650 0    60   ~ 0
-A_2_1
+A_9_2
 Text Label 9050 11550 0    60   ~ 0
-B_2_1
+B_9_2
 Text Label 9050 11450 0    60   ~ 0
-C_2_1
+C_9_2
 Text Label 9050 11350 0    60   ~ 0
-D_2_1
+D_9_2
 Wire Wire Line
 	8000 9650 7550 9650
 Wire Wire Line
@@ -4053,33 +4053,33 @@ Wire Wire Line
 Wire Wire Line
 	12800 12450 13350 12450
 Text Label 12900 13150 0    60   ~ 0
-B2_3_1
+B2_8_2
 Text Label 12900 13050 0    60   ~ 0
-G2_3_1
+G2_8_2
 Text Label 12900 12950 0    60   ~ 0
-R2_3_1
+R2_8_2
 Text Label 12900 12650 0    60   ~ 0
-R1_3_1
+R1_8_2
 Text Label 10000 13150 0    60   ~ 0
-B2_3
+B2_8
 Text Label 10000 13050 0    60   ~ 0
-G2_3
+G2_8
 Text Label 10000 12950 0    60   ~ 0
-R2_3
+R2_8
 Text Label 10000 12650 0    60   ~ 0
-R1_3
+R1_8
 Text Label 11500 9550 0    60   ~ 0
-R1_3_1
+R1_8_2
 Text Label 12750 9550 0    60   ~ 0
-G1_3_1
+G1_8_2
 Text Label 11500 9650 0    60   ~ 0
-B1_3_1
+B1_8_2
 Text Label 11500 9750 0    60   ~ 0
-R2_3_1
+R2_8_2
 Text Label 11500 9850 0    60   ~ 0
-B2_3_1
+B2_8_2
 Text Label 12750 9750 0    60   ~ 0
-G2_3_1
+G2_8_2
 $Comp
 L 74HC245 U12
 U 1 1 5A5F9668
@@ -4321,33 +4321,33 @@ Wire Wire Line
 Wire Wire Line
 	8950 12450 9500 12450
 Text Label 9050 13150 0    60   ~ 0
-B2_2_1
+B2_9_2
 Text Label 9050 13050 0    60   ~ 0
-G2_2_1
+G2_9_2
 Text Label 9050 12950 0    60   ~ 0
-R2_2_1
+R2_9_2
 Text Label 6150 13150 0    60   ~ 0
-B2_2
+B2_9
 Text Label 6150 13050 0    60   ~ 0
-G2_2
+G2_9
 Text Label 6150 12950 0    60   ~ 0
-R2_2
+R2_9
 Text Label 6150 12650 0    60   ~ 0
-R1_2
+R1_9
 Text Label 9050 12650 0    60   ~ 0
-R1_2_1
+R1_9_2
 Wire Wire Line
 	7050 12550 6050 12550
 Wire Wire Line
 	8950 12550 9500 12550
 Text Label 9050 12450 0    60   ~ 0
-G1_2_1
+G1_9_2
 Text Label 9050 12550 0    60   ~ 0
-B1_2_1
+B1_9_2
 Text Label 6150 12450 0    60   ~ 0
-G1_2
+G1_9
 Text Label 6150 12550 0    60   ~ 0
-B1_2
+B1_9
 Wire Wire Line
 	12800 12550 13350 12550
 Text Label 7600 9650 0    60   ~ 0
@@ -4365,13 +4365,13 @@ G2_9_2
 Wire Wire Line
 	10900 12550 9900 12550
 Text Label 12900 12450 0    60   ~ 0
-G1_3_1
+G1_8_2
 Text Label 12900 12550 0    60   ~ 0
-B1_3_1
+B1_8_2
 Text Label 10000 12450 0    60   ~ 0
-G1_3
+G1_8
 Text Label 10000 12550 0    60   ~ 0
-B1_3
+B1_8
 Wire Wire Line
 	3500 12650 3600 12650
 Wire Wire Line
@@ -4385,15 +4385,15 @@ Wire Wire Line
 Wire Wire Line
 	16250 9500 17150 9500
 Text Label 16600 9500 0    60   ~ 0
-G1_4_1
+G1_7_2
 Text Label 16600 9700 0    60   ~ 0
-G2_4_1
+G2_7_2
 Text Label 16600 9900 0    60   ~ 0
-B_4_1
+B_7_2
 Text Label 16600 10000 0    60   ~ 0
-D_4_1
+D_7_2
 Text Label 16600 10100 0    60   ~ 0
-LAT_4_1
+LAT_7_2
 Wire Wire Line
 	15750 9500 15300 9500
 Wire Wire Line
@@ -4411,21 +4411,21 @@ Wire Wire Line
 Wire Wire Line
 	15750 10200 15300 10200
 Text Label 15350 10200 0    60   ~ 0
-OE_4_1
+OE_7_2
 Text Label 15350 10100 0    60   ~ 0
-CLK_4_1
+CLK_7_2
 Text Label 15350 10000 0    60   ~ 0
-C_4_1
+C_7_2
 Text Label 15350 9900 0    60   ~ 0
-A_4_1
+A_7_2
 Text Label 15350 9500 0    60   ~ 0
-R1_4_1
+R1_7_2
 Text Label 15350 9600 0    60   ~ 0
-B1_4_1
+B1_7_2
 Text Label 15350 9700 0    60   ~ 0
-R2_4_1
+R2_7_2
 Text Label 15350 9800 0    60   ~ 0
-B2_4_1
+B2_7_2
 $Comp
 L 74HC245 U17
 U 1 1 5A5F971A
@@ -4516,17 +4516,17 @@ Wire Wire Line
 Wire Wire Line
 	14750 11050 13750 11050
 Text Label 13850 11650 0    60   ~ 0
-A__1
+A__2
 Text Label 13850 11550 0    60   ~ 0
-B__1
+B__2
 Text Label 13850 11450 0    60   ~ 0
-C__1
+C__2
 Text Label 13850 11350 0    60   ~ 0
-D__1
+D__2
 Text Label 13850 11250 0    60   ~ 0
-CLK__1
+CLK__2
 Text Label 13850 11150 0    60   ~ 0
-LAT__1
+LAT__2
 Text Label 13850 11050 0    60   ~ 0
 OE__1
 Wire Wire Line
@@ -4544,19 +4544,19 @@ Wire Wire Line
 Wire Wire Line
 	16650 11650 17250 11650
 Text Label 16800 11050 0    60   ~ 0
-OE_4_1
+OE_7_2
 Text Label 16800 11150 0    60   ~ 0
-LAT_4_1
+LAT_7_2
 Text Label 16800 11250 0    60   ~ 0
-CLK_4_1
+CLK_7_2
 Text Label 16800 11650 0    60   ~ 0
-A_4_1
+A_7_2
 Text Label 16800 11550 0    60   ~ 0
-B_4_1
+B_7_2
 Text Label 16800 11450 0    60   ~ 0
-C_4_1
+C_7_2
 Text Label 16800 11350 0    60   ~ 0
-D_4_1
+D_7_2
 $Comp
 L 74HC245 U18
 U 1 1 5A5F975E
@@ -4649,33 +4649,33 @@ Wire Wire Line
 Wire Wire Line
 	16650 12450 17200 12450
 Text Label 16750 13150 0    60   ~ 0
-B2_4_1
+B2_7_2
 Text Label 16750 13050 0    60   ~ 0
-G2_4_1
+G2_7_2
 Text Label 16750 12950 0    60   ~ 0
-R2_4_1
+R2_7_2
 Text Label 13850 13150 0    60   ~ 0
-B2_4
+B2_7
 Text Label 13850 13050 0    60   ~ 0
-G2_4
+G2_7
 Text Label 13850 12950 0    60   ~ 0
-R2_4
+R2_7
 Text Label 13850 12650 0    60   ~ 0
-R1_4
+R1_7
 Text Label 16750 12650 0    60   ~ 0
-R1_4_1
+R1_7_2
 Wire Wire Line
 	14750 12550 13750 12550
 Wire Wire Line
 	16650 12550 17200 12550
 Text Label 16750 12450 0    60   ~ 0
-G1_4_1
+G1_7_2
 Text Label 16750 12550 0    60   ~ 0
-B1_4_1
+B1_7_2
 Text Label 13850 12450 0    60   ~ 0
-G1_4
+G1_7
 Text Label 13850 12550 0    60   ~ 0
-B1_4
+B1_7
 Wire Wire Line
 	15150 12650 15250 12650
 Wire Wire Line
@@ -4695,21 +4695,21 @@ Wire Wire Line
 Wire Wire Line
 	19500 10200 19050 10200
 Text Label 19100 10200 0    60   ~ 0
-OE_5_1
+OE_6_2
 Text Label 19100 10100 0    60   ~ 0
-CLK_5_1
+CLK_6_2
 Text Label 19100 10000 0    60   ~ 0
-C_5_1
+C_6_2
 Text Label 19100 9900 0    60   ~ 0
-A_5_1
+A_6_2
 Text Label 19100 9500 0    60   ~ 0
-R1_5_1
+R1_6_2
 Text Label 19100 9600 0    60   ~ 0
-B1_5_1
+B1_6_2
 Text Label 19100 9700 0    60   ~ 0
-R2_5_1
+R2_6_2
 Text Label 19100 9800 0    60   ~ 0
-B2_5_1
+B2_6_2
 Wire Wire Line
 	20000 9700 20900 9700
 Wire Wire Line
@@ -4721,15 +4721,15 @@ Wire Wire Line
 Wire Wire Line
 	20000 9500 20900 9500
 Text Label 20350 9500 0    60   ~ 0
-G1_5_1
+G1_6_2
 Text Label 20350 9700 0    60   ~ 0
-G2_5_1
+G2_6_2
 Text Label 20350 9900 0    60   ~ 0
-B_5_1
+B_6_2
 Text Label 20350 10000 0    60   ~ 0
-D_5_1
+D_6_2
 Text Label 20350 10100 0    60   ~ 0
-LAT_5_1
+LAT_6_2
 $Comp
 L 74HC245 U19
 U 1 1 5A5F97B7
@@ -4820,17 +4820,17 @@ Wire Wire Line
 Wire Wire Line
 	18600 11050 17600 11050
 Text Label 17700 11650 0    60   ~ 0
-A__1
+A__2
 Text Label 17700 11550 0    60   ~ 0
-B__1
+B__2
 Text Label 17700 11450 0    60   ~ 0
-C__1
+C__2
 Text Label 17700 11350 0    60   ~ 0
-D__1
+D__2
 Text Label 17700 11250 0    60   ~ 0
-CLK__1
+CLK__2
 Text Label 17700 11150 0    60   ~ 0
-LAT__1
+LAT__2
 Text Label 17700 11050 0    60   ~ 0
 OE__1
 Wire Wire Line
@@ -4848,19 +4848,19 @@ Wire Wire Line
 Wire Wire Line
 	20500 11650 21100 11650
 Text Label 20650 11050 0    60   ~ 0
-OE_5_1
+OE_6_2
 Text Label 20650 11150 0    60   ~ 0
-LAT_5_1
+LAT_6_2
 Text Label 20650 11250 0    60   ~ 0
-CLK_5_1
+CLK_6_2
 Text Label 20650 11650 0    60   ~ 0
-A_5_1
+A_6_2
 Text Label 20650 11550 0    60   ~ 0
-B_5_1
+B_6_2
 Text Label 20650 11450 0    60   ~ 0
-C_5_1
+C_6_2
 Text Label 20650 11350 0    60   ~ 0
-D_5_1
+D_6_2
 $Comp
 L 74HC245 U20
 U 1 1 5A5F97FB
@@ -4953,33 +4953,33 @@ Wire Wire Line
 Wire Wire Line
 	20500 12450 21050 12450
 Text Label 20600 13150 0    60   ~ 0
-B2_5_1
+B2_6_2
 Text Label 20600 13050 0    60   ~ 0
-G2_5_1
+G2_6_2
 Text Label 20600 12950 0    60   ~ 0
-R2_5_1
+R2_6_2
 Text Label 17700 13150 0    60   ~ 0
-B2_5
+B2_6
 Text Label 17700 13050 0    60   ~ 0
-G2_5
+G2_6
 Text Label 17700 12950 0    60   ~ 0
-R2_5
+R2_6
 Text Label 17700 12650 0    60   ~ 0
-R1_5
+R1_6
 Text Label 20600 12650 0    60   ~ 0
-R1_5_1
+R1_6_2
 Wire Wire Line
 	18600 12550 17600 12550
 Wire Wire Line
 	20500 12550 21050 12550
 Text Label 20600 12450 0    60   ~ 0
-G1_5_1
+G1_6_2
 Text Label 20600 12550 0    60   ~ 0
-B1_5_1
+B1_6_2
 Text Label 17700 12450 0    60   ~ 0
-G1_5
+G1_6
 Text Label 17700 12550 0    60   ~ 0
-B1_5
+B1_6
 Wire Wire Line
 	19000 12650 19100 12650
 Wire Wire Line
@@ -5202,4 +5202,48 @@ Wire Wire Line
 Wire Wire Line
 	18000 12850 18000 12750
 Connection ~ 18550 12750
+$Comp
+L GND #PWR?
+U 1 1 5A5FC006
+P 8950 8450
+F 0 "#PWR?" H 8950 8200 50  0001 C CNN
+F 1 "GND" H 8950 8300 50  0000 C CNN
+F 2 "" H 8950 8450 50  0001 C CNN
+F 3 "" H 8950 8450 50  0001 C CNN
+	1    8950 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 8150 8950 8150
+Wire Wire Line
+	8950 8150 8950 8450
+Wire Wire Line
+	9050 8250 8950 8250
+Connection ~ 8950 8250
+Wire Wire Line
+	9050 8350 8550 8350
+Text Label 8650 8350 0    60   ~ 0
+9V
+$Comp
+L VCC #PWR?
+U 1 1 5A5FF374
+P 8850 8050
+F 0 "#PWR?" H 8850 7900 50  0001 C CNN
+F 1 "VCC" H 8850 8200 50  0000 C CNN
+F 2 "" H 8850 8050 50  0001 C CNN
+F 3 "" H 8850 8050 50  0001 C CNN
+	1    8850 8050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8850 8050 9050 8050
+Wire Wire Line
+	8550 7950 9050 7950
+Wire Wire Line
+	8950 7950 8950 7750
+Wire Wire Line
+	8950 7750 9050 7750
+Connection ~ 8950 7950
+Text Label 8650 7950 0    60   ~ 0
+3V3
 $EndSCHEMATC
