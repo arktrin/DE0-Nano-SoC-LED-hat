@@ -3922,19 +3922,19 @@ C_10_2
 Text Label 5150 11350 0    60   ~ 0
 D_10_2
 Text Label 7600 10350 0    60   ~ 0
-OE_2_1
+OE_9_2
 Text Label 7600 10250 0    60   ~ 0
-CLK_2_1
+CLK_9_2
 Text Label 7600 10150 0    60   ~ 0
-C_2_1
+C_9_2
 Text Label 7600 10050 0    60   ~ 0
-A_2_1
+A_9_2
 Text Label 8850 10050 0    60   ~ 0
-B_2_1
+B_9_2
 Text Label 8850 10150 0    60   ~ 0
-D_2_1
+D_9_2
 Text Label 8850 10250 0    60   ~ 0
-LAT_2_1
+LAT_9_2
 Wire Wire Line
 	4100 9500 3600 9500
 Wire Wire Line
@@ -4353,15 +4353,15 @@ Wire Wire Line
 Text Label 7600 9650 0    60   ~ 0
 R1_9_2
 Text Label 7600 9750 0    60   ~ 0
-B1_2_1
+B1_9_2
 Text Label 7600 9850 0    60   ~ 0
-R2_2_1
+R2_9_2
 Text Label 7600 9950 0    60   ~ 0
-B2_2_1
+B2_9_2
 Text Label 8850 9650 0    60   ~ 0
-G1_2_1
+G1_9_2
 Text Label 8850 9850 0    60   ~ 0
-G2_2_1
+G2_9_2
 Wire Wire Line
 	10900 12550 9900 12550
 Text Label 12900 12450 0    60   ~ 0
