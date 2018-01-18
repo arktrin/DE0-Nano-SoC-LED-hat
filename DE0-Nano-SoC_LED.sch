@@ -3037,12 +3037,12 @@ Connection ~ 17700 15250
 $Comp
 L Conn_01x08 J10
 U 1 1 5A5F75CF
-P 9250 7950
-F 0 "J10" H 9250 8350 50  0000 C CNN
-F 1 "Conn_01x08" H 9250 7450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9250 7950 50  0001 C CNN
-F 3 "" H 9250 7950 50  0001 C CNN
-	1    9250 7950
+P 9950 7950
+F 0 "J10" H 9950 8350 50  0000 C CNN
+F 1 "Conn_01x08" H 9950 7450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 9950 7950 50  0001 C CNN
+F 3 "" H 9950 7950 50  0001 C CNN
+	1    9950 7950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3106,7 +3106,7 @@ Text Label 5350 7900 0    60   ~ 0
 Wire Wire Line
 	5650 7700 5000 7700
 Text Label 6500 7400 0    60   ~ 0
-B__2
+B2_8
 Wire Wire Line
 	6150 7300 6850 7300
 Wire Wire Line
@@ -3120,15 +3120,15 @@ Wire Wire Line
 Wire Wire Line
 	6150 7100 6850 7100
 Text Label 5100 7200 0    60   ~ 0
-CLK__2
+G1_8
 Text Label 6500 7200 0    60   ~ 0
-LAT__2
+B1_8
 Text Label 5100 7300 0    60   ~ 0
-C__2
+R1_8
 Text Label 6500 7300 0    60   ~ 0
-D__2
+R2_8
 Text Label 5100 7400 0    60   ~ 0
-A__2
+G2_8
 Wire Wire Line
 	5650 6500 5000 6500
 Wire Wire Line
@@ -3164,17 +3164,17 @@ G2_7
 Text Label 6500 7100 0    60   ~ 0
 B2_7
 Text Label 5100 7500 0    60   ~ 0
-B1_8
+CLK__2
 Text Label 6500 7500 0    60   ~ 0
-G1_8
+LAT__2
 Text Label 5100 7600 0    60   ~ 0
-R2_8
+C__2
 Text Label 6500 7600 0    60   ~ 0
-R1_8
+D__2
 Text Label 5100 7700 0    60   ~ 0
-B2_8
+A__2
 Text Label 6500 7700 0    60   ~ 0
-G2_8
+B__2
 Wire Wire Line
 	5650 7800 5000 7800
 Wire Wire Line
@@ -3224,7 +3224,7 @@ B2_9
 Text Label 6500 8100 0    60   ~ 0
 G2_9
 Text Label 6500 6500 0    60   ~ 0
-B1_6
+R1_6
 Text Label 5100 6900 0    60   ~ 0
 R1_7
 Text Label 5100 6800 0    60   ~ 0
@@ -3232,18 +3232,18 @@ G1_7
 Text Label 5100 6700 0    60   ~ 0
 G2_6
 Text Label 5100 6600 0    60   ~ 0
-R1_6
+B1_6
 Text Label 5100 6500 0    60   ~ 0
 G1_6
 $Comp
 L Conn_01x06 J9
 U 1 1 5A5FD2C9
-P 9250 6700
-F 0 "J9" H 9250 7000 50  0000 C CNN
-F 1 "Conn_01x06" H 9250 6300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9250 6700 50  0001 C CNN
-F 3 "" H 9250 6700 50  0001 C CNN
-	1    9250 6700
+P 9950 6700
+F 0 "J9" H 9950 7000 50  0000 C CNN
+F 1 "Conn_01x06" H 9950 6300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9950 6700 50  0001 C CNN
+F 3 "" H 9950 6700 50  0001 C CNN
+	1    9950 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5205,50 +5205,50 @@ Connection ~ 18550 12750
 $Comp
 L GND #PWR0110
 U 1 1 5A5FC006
-P 8950 8450
-F 0 "#PWR0110" H 8950 8200 50  0001 C CNN
-F 1 "GND" H 8950 8300 50  0000 C CNN
-F 2 "" H 8950 8450 50  0001 C CNN
-F 3 "" H 8950 8450 50  0001 C CNN
-	1    8950 8450
+P 9650 8450
+F 0 "#PWR0110" H 9650 8200 50  0001 C CNN
+F 1 "GND" H 9650 8300 50  0000 C CNN
+F 2 "" H 9650 8450 50  0001 C CNN
+F 3 "" H 9650 8450 50  0001 C CNN
+	1    9650 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 8150 8950 8150
+	9750 8150 9650 8150
 Wire Wire Line
-	8950 8150 8950 8450
+	9650 8150 9650 8450
 Wire Wire Line
-	9050 8250 8950 8250
-Connection ~ 8950 8250
+	9750 8250 9650 8250
+Connection ~ 9650 8250
 Wire Wire Line
-	9050 8350 8550 8350
-Text Label 8650 8350 0    60   ~ 0
+	9750 8350 9250 8350
+Text Label 9350 8350 0    60   ~ 0
 9V
 $Comp
 L VCC #PWR0111
 U 1 1 5A5FF374
-P 8850 8050
-F 0 "#PWR0111" H 8850 7900 50  0001 C CNN
-F 1 "VCC" H 8850 8200 50  0000 C CNN
-F 2 "" H 8850 8050 50  0001 C CNN
-F 3 "" H 8850 8050 50  0001 C CNN
-	1    8850 8050
+P 9550 8050
+F 0 "#PWR0111" H 9550 7900 50  0001 C CNN
+F 1 "VCC" H 9550 8200 50  0000 C CNN
+F 2 "" H 9550 8050 50  0001 C CNN
+F 3 "" H 9550 8050 50  0001 C CNN
+	1    9550 8050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8850 8050 9050 8050
+	9550 8050 9750 8050
 Wire Wire Line
-	8550 7950 9050 7950
+	9250 7950 9750 7950
 Wire Wire Line
-	8950 7950 8950 7750
+	9650 7950 9650 7750
 Wire Wire Line
-	8950 7750 9050 7750
-Connection ~ 8950 7950
-Text Label 8650 7950 0    60   ~ 0
+	9650 7750 9750 7750
+Connection ~ 9650 7950
+Text Label 9350 7950 0    60   ~ 0
 3V3
 Wire Wire Line
-	9050 7850 8250 7850
-Text Label 8350 7850 0    60   ~ 0
+	9750 7850 8950 7850
+Text Label 9050 7850 0    60   ~ 0
 FPGA_AH7
 $Comp
 L C C23
