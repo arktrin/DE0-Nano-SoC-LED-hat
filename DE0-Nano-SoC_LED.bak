@@ -3106,7 +3106,7 @@ Text Label 5350 7900 0    60   ~ 0
 Wire Wire Line
 	5650 7700 5000 7700
 Text Label 6500 7400 0    60   ~ 0
-G2_8
+B2_8
 Wire Wire Line
 	6150 7300 6850 7300
 Wire Wire Line
@@ -3120,15 +3120,15 @@ Wire Wire Line
 Wire Wire Line
 	6150 7100 6850 7100
 Text Label 5100 7200 0    60   ~ 0
-B1_8
-Text Label 6500 7200 0    60   ~ 0
 G1_8
+Text Label 6500 7200 0    60   ~ 0
+B1_8
 Text Label 5100 7300 0    60   ~ 0
-R2_8
-Text Label 6500 7300 0    60   ~ 0
 R1_8
+Text Label 6500 7300 0    60   ~ 0
+R2_8
 Text Label 5100 7400 0    60   ~ 0
-B2_8
+G2_8
 Wire Wire Line
 	5650 6500 5000 6500
 Wire Wire Line
@@ -3232,9 +3232,9 @@ G1_7
 Text Label 5100 6700 0    60   ~ 0
 G2_6
 Text Label 5100 6600 0    60   ~ 0
-B1_6
-Text Label 5100 6500 0    60   ~ 0
 G1_6
+Text Label 5100 6500 0    60   ~ 0
+B1_6
 $Comp
 L Conn_01x06 J9
 U 1 1 5A5FD2C9
