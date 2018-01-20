@@ -3671,7 +3671,7 @@ CLK__2
 Text Label 10000 11150 0    60   ~ 0
 LAT__2
 Text Label 10000 11050 0    60   ~ 0
-OE__1
+OE__2
 $Comp
 L R_Pack04 RN25
 U 1 1 5A5F9596
@@ -3735,7 +3735,7 @@ CLK__2
 Text Label 6100 11150 0    60   ~ 0
 LAT__2
 Text Label 6100 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	8900 11050 9500 11050
 Wire Wire Line
@@ -3892,7 +3892,7 @@ CLK__2
 Text Label 2200 11150 0    60   ~ 0
 LAT__2
 Text Label 2200 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	5000 11050 5600 11050
 Wire Wire Line
@@ -4528,7 +4528,7 @@ CLK__2
 Text Label 13850 11150 0    60   ~ 0
 LAT__2
 Text Label 13850 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	16650 11050 17250 11050
 Wire Wire Line
@@ -4832,7 +4832,7 @@ CLK__2
 Text Label 17700 11150 0    60   ~ 0
 LAT__2
 Text Label 17700 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	20500 11050 21100 11050
 Wire Wire Line
@@ -5249,7 +5249,7 @@ Text Label 9350 7950 0    60   ~ 0
 Wire Wire Line
 	9750 7850 8950 7850
 Text Label 9050 7850 0    60   ~ 0
-FPGA_AH7
+OE__2
 $Comp
 L C C23
 U 1 1 5A60965F
