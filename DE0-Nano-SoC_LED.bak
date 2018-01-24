@@ -3671,7 +3671,7 @@ CLK__2
 Text Label 10000 11150 0    60   ~ 0
 LAT__2
 Text Label 10000 11050 0    60   ~ 0
-OE__1
+OE__2
 $Comp
 L R_Pack04 RN25
 U 1 1 5A5F9596
@@ -3735,7 +3735,7 @@ CLK__2
 Text Label 6100 11150 0    60   ~ 0
 LAT__2
 Text Label 6100 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	8900 11050 9500 11050
 Wire Wire Line
@@ -3892,7 +3892,7 @@ CLK__2
 Text Label 2200 11150 0    60   ~ 0
 LAT__2
 Text Label 2200 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	5000 11050 5600 11050
 Wire Wire Line
@@ -4528,7 +4528,7 @@ CLK__2
 Text Label 13850 11150 0    60   ~ 0
 LAT__2
 Text Label 13850 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	16650 11050 17250 11050
 Wire Wire Line
@@ -4832,7 +4832,7 @@ CLK__2
 Text Label 17700 11150 0    60   ~ 0
 LAT__2
 Text Label 17700 11050 0    60   ~ 0
-OE__1
+OE__2
 Wire Wire Line
 	20500 11050 21100 11050
 Wire Wire Line
@@ -5249,7 +5249,7 @@ Text Label 9350 7950 0    60   ~ 0
 Wire Wire Line
 	9750 7850 8950 7850
 Text Label 9050 7850 0    60   ~ 0
-FPGA_AH7
+OE__2
 $Comp
 L C C23
 U 1 1 5A60965F
@@ -6027,4 +6027,45 @@ F 3 "" H 17750 7900 50  0001 C CNN
 	1    17750 7900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_01x05 J?
+U 1 1 5A68BFF0
+P 1600 9100
+F 0 "J?" H 1600 9400 50  0000 C CNN
+F 1 "Conn_01x05" H 1600 8800 50  0000 C CNN
+F 2 "" H 1600 9100 50  0001 C CNN
+F 3 "" H 1600 9100 50  0001 C CNN
+	1    1600 9100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A68CF92
+P 1900 9400
+F 0 "#PWR?" H 1900 9150 50  0001 C CNN
+F 1 "GND" H 1900 9250 50  0000 C CNN
+F 2 "" H 1900 9400 50  0001 C CNN
+F 3 "" H 1900 9400 50  0001 C CNN
+	1    1900 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5A68D493
+P 1900 8800
+F 0 "#PWR?" H 1900 8650 50  0001 C CNN
+F 1 "VCC" H 1900 8950 50  0000 C CNN
+F 2 "" H 1900 8800 50  0001 C CNN
+F 3 "" H 1900 8800 50  0001 C CNN
+	1    1900 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 8900 1900 8900
+Wire Wire Line
+	1900 8900 1900 8800
+Wire Wire Line
+	1800 9300 1900 9300
+Wire Wire Line
+	1900 9300 1900 9400
 $EndSCHEMATC
