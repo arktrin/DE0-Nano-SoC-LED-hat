@@ -2017,8 +2017,6 @@ F 3 "" H 16000 8050 50  0001 C CNN
 	1    16000 8050
 	1    0    0    -1  
 $EndComp
-Text Label 2000 7050 0    60   ~ 0
-OE__1
 $Comp
 L GND #PWR076
 U 1 1 5A2A092E
@@ -4953,7 +4951,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 8400 13750 8450
 Wire Wire Line
-	1800 7050 2300 7050
+	1800 7050 2450 7050
 Connection ~ 2850 4900
 Wire Wire Line
 	1850 4900 2400 4900
@@ -6154,12 +6152,12 @@ Wire Wire Line
 $Comp
 L Conn_01x10 J25
 U 1 1 5A6A3D1E
-P 800 6850
-F 0 "J25" H 800 7350 50  0000 C CNN
-F 1 "Conn_01x10" H 800 6250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 800 6850 50  0001 C CNN
-F 3 "" H 800 6850 50  0001 C CNN
-	1    800  6850
+P 700 6850
+F 0 "J25" H 700 7350 50  0000 C CNN
+F 1 "Conn_01x10" H 700 6250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 700 6850 50  0001 C CNN
+F 3 "" H 700 6850 50  0001 C CNN
+	1    700  6850
 	-1   0    0    -1  
 $EndComp
 Text Label 1850 8450 0    60   ~ 0
@@ -6174,4 +6172,120 @@ Text Label 2000 9200 0    60   ~ 0
 FPGA_AF13
 Text Label 2000 9400 0    60   ~ 0
 FPGA_AG10
+$Comp
+L Conn_01x10 J28
+U 1 1 5A69DE2E
+P 700 8100
+F 0 "J28" H 700 8600 50  0000 C CNN
+F 1 "Conn_01x10" H 700 7500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 700 8100 50  0001 C CNN
+F 3 "" H 700 8100 50  0001 C CNN
+	1    700  8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0158
+U 1 1 5A69E18E
+P 1000 8700
+F 0 "#PWR0158" H 1000 8450 50  0001 C CNN
+F 1 "GND" H 1000 8550 50  0000 C CNN
+F 2 "" H 1000 8700 50  0001 C CNN
+F 3 "" H 1000 8700 50  0001 C CNN
+	1    1000 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 8600 900  8600
+Wire Wire Line
+	1000 8300 1000 8700
+Wire Wire Line
+	900  8500 1000 8500
+Connection ~ 1000 8600
+Wire Wire Line
+	900  8400 1000 8400
+Connection ~ 1000 8500
+Wire Wire Line
+	900  8300 1000 8300
+Connection ~ 1000 8400
+$Comp
+L VCC #PWR0159
+U 1 1 5A6A18EA
+P 1100 7350
+F 0 "#PWR0159" H 1100 7200 50  0001 C CNN
+F 1 "VCC" H 1100 7500 50  0000 C CNN
+F 2 "" H 1100 7350 50  0001 C CNN
+F 3 "" H 1100 7350 50  0001 C CNN
+	1    1100 7350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  7150 1000 7150
+Wire Wire Line
+	1000 7150 1000 7350
+Wire Wire Line
+	900  7350 1100 7350
+Wire Wire Line
+	900  7250 1000 7250
+Connection ~ 1000 7250
+Connection ~ 1000 7350
+Wire Wire Line
+	1800 6450 2450 6450
+Wire Wire Line
+	1800 6550 2450 6550
+Wire Wire Line
+	1800 6850 2450 6850
+Wire Wire Line
+	1800 6950 2450 6950
+Text Label 1850 6450 0    60   ~ 0
+FPGA_AG11
+Text Label 1850 6550 0    60   ~ 0
+FPGA_AH9
+Text Label 1950 6850 0    60   ~ 0
+FPGA_AH12
+Text Label 1950 6950 0    60   ~ 0
+FPGA_AH11
+Wire Wire Line
+	900  6450 1400 6450
+Wire Wire Line
+	900  6550 1400 6550
+Wire Wire Line
+	900  6850 1400 6850
+Wire Wire Line
+	900  6950 1400 6950
+Wire Wire Line
+	900  7050 1400 7050
+Wire Wire Line
+	1800 7150 2450 7150
+Text Label 1950 7050 0    60   ~ 0
+FPGA_AG16
+Text Label 1950 7150 0    60   ~ 0
+OE__1
+Text Label 950  6450 0    60   ~ 0
+FPGA_AG11
+Text Label 950  6550 0    60   ~ 0
+FPGA_AH9
+$Comp
+L GND #PWR?
+U 1 1 5A69ECAC
+P 1000 6650
+F 0 "#PWR?" H 1000 6400 50  0001 C CNN
+F 1 "GND" H 1000 6500 50  0000 C CNN
+F 2 "" H 1000 6650 50  0001 C CNN
+F 3 "" H 1000 6650 50  0001 C CNN
+	1    1000 6650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  6750 950  6750
+Wire Wire Line
+	950  6750 950  6650
+Wire Wire Line
+	900  6650 1000 6650
+Connection ~ 950  6650
+Text Label 950  6850 0    60   ~ 0
+FPGA_AH12
+Text Label 950  6950 0    60   ~ 0
+FPGA_AH11
+Text Label 950  7050 0    60   ~ 0
+FPGA_AG16
 $EndSCHEMATC
